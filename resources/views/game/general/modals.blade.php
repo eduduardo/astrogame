@@ -1,0 +1,6 @@
+@include('game.modals.player')
+@include('game.modals.quests')
+@include('game.modals.shop')
+@include('game.modals.suggestions')
+@include('game.modals.config')
+@include('game.modals.misc')

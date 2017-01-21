@@ -1,0 +1,352 @@
+/*
+ * Astrogame - main game style
+ *
+ * @author Eduardo Augusto Ramos
+ * @version 2.0.2
+ */
+html {
+	background: #3498db;
+}
+body {
+	background: #3498db url('../../img/liftoff.png') no-repeat right bottom fixed;
+	min-height: 800px;
+	transition: 0.8s all ease;
+	overflow: hidden;
+}
+ul {
+	list-style: none;
+}
+.game-section {
+	padding-top: 100px;
+}
+.game-section .cientist {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 200px;
+}
+.game-section .controls {
+	position: fixed;
+	bottom: 20px;
+	right: 210px;
+}
+.game-section .cientist-message .uk-tooltip {
+	position: fixed;
+	bottom: 220px;
+	right: 83px;
+	z-index: 1;
+	max-width: 270px;
+	line-height: 22px;
+	font-size: 16px;
+	color: #fff;
+}
+.game-section .cientist-message .message-arrow:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: -105px;
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid #fff;
+	margin-bottom: -70px;
+}
+.bag li {
+	display: inline-block;
+}
+.bag figure {
+	width: 60px;
+	background: #EAEAEA;
+}
+.bag .uk-badge {
+	position: absolute;
+}
+.bag li {
+	cursor: pointer;
+}
+#big-bang {
+	font-size: 50px;
+	padding: 30px;
+}
+.insignas li {
+	display: inline-block;
+}
+.insignas .uk-thumbnail {
+	overflow: hidden;
+}
+.action-button {
+	font-size: 25px;
+	position: relative;
+	float: left;
+	margin: 0 10px 10px 0;
+	padding: 15px 45px;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 10px;
+}
+.action-button:hover {
+	color: none !important;
+}
+.blue {
+	border-bottom: 5px solid #2980b9;
+	background-color: #3498db;
+	text-shadow: 0 -2px #2980b9;
+}
+.red {
+	border-bottom: 5px solid #bd3e31;
+	background-color: #e74c3c;
+	text-shadow: 0 -2px #bd3e31;
+}
+.green {
+	border-bottom: 5px solid #669644;
+	background-color: #82bf56;
+	text-shadow: 0 -2px #669644;
+}
+.yellow {
+	border-bottom: 5px solid #d1b358;
+	background-color: #f2cf66;
+	text-shadow: 0 -2px #d1b358;
+}
+.action-button:active {
+	-webkit-transform: translate(0px, 5px);
+	transform: translate(0px, 5px);
+	border-bottom: 1px solid;
+}
+a {
+	text-decoration: none !important;
+	outline: none !important;
+	box-shadow: none;
+	text-shadow: none;
+}
+a:focus,
+a:hover {
+	color: none !important;
+	box-shadow: none;
+	text-shadow: none;
+}
+.buttons a {
+	padding-right: 10px;
+	padding-left: 10px;
+	position: fixed;
+	transition: all 0.2s linear;
+}
+.buttons a:hover {
+	color: #ecf0f1;
+}
+.menu-jogador {
+	left: -72px;
+	top: 30px;
+	background: #1abc9c;
+	border-color: #16a085;
+	text-shadow: 0 -2px #16a085;
+}
+.menu-jogador:hover {
+	left: -6px;
+}
+.menu-suggestions {
+	left: -135px;
+	top: 450px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background: #2ecc71;
+	border-color: #27ae60;
+	text-shadow: 0 -2px #27ae60;
+}
+.menu-suggestions:hover {
+	left: -7px;
+}
+.menu-campanha {
+	top: 100px;
+	left: -135px;
+	background: #e67e22;
+	border-color: #d35400;
+	text-shadow: 0 -2px #d35400;
+}
+.menu-campanha:hover {
+	left: -7px;
+}
+.menu-loja {
+	top: 240px;
+	left: -60px;
+	background: #f1c40f;
+	border-color: #f39c12;
+	text-shadow: 0 -2px #f39c12;
+}
+.menu-loja:hover {
+	left: -7px;
+}
+.menu-missions {
+	top: 170px;
+	left: -104px;
+}
+.menu-missions:hover {
+	left: -7px;
+}
+.menu-config {
+	top: 380px;
+	left: -173px;
+	background: #95a5a6;
+	border-color: #7f8c8d;
+	text-shadow: 0 -2px #7f8c8d;
+}
+.menu-config:hover {
+	left: -7px;
+}
+.menu-home {
+	top: 515px;
+	left: -82px;
+	background: #9b59b6;
+	border-color: #8e44ad;
+	text-shadow: 0 -2px #8e44ad;
+}
+.menu-home:hover {
+	left: -7px;
+}
+.menu-observatory {
+	top: 310px;
+	left: -136px;
+	background: #34495e;
+	border-color: #2c3e50;
+	text-shadow: 0 -2px #2c3e50;
+}
+.menu-observatory:hover {
+	left: -7px;
+}
+.menu-logout {
+	top: 580px;
+	left: -57px;
+}
+.menu-logout:hover {
+	left: -7px;
+}
+
+.uk-progress-bar {
+		color: #000 !important;
+		text-shadow: none !important;
+}
+
+canvas, canvas * {
+	image-rendering: optimizeSpeed
+}
+
+.gray {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(1);
+}
+
+
+button.action-button {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+button.action-button:hover {
+    color: #005599;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+.quest-avaliable{
+		width: 180px
+}
+
+.cientist-message {
+		position: fixed;
+		width: 300px;
+		right: 190px;
+		bottom: 130px
+}
+
+.bubble {
+    font: 16px/25px sans-serif;
+    position: relative;
+    display: inline-block;
+    padding: 15px 25px;
+    color: #333;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    box-shadow: inset 0 1px 1px hsla(0, 0%, 100%, .5), 3px 3px 0 hsla(0, 0%, 0%, .1);
+    text-shadow: 0 1px 1px hsla(0, 0%, 100%, .5);
+}
+.bubble:after,
+.bubble:before {
+    position: absolute;
+    right: 105px;
+    bottom: -25px;
+    content: '';
+    border-right: 25px solid #ecf0f1;
+    border-bottom: 25px solid transparent;
+}
+.bubble:before {
+    right: 102px;
+    bottom: -28px;
+    border-right: 25px solid hsla(0, 0%, 0%, .1);
+}
+
+.video-container {
+	width: 100%;
+	height: 100%;
+}
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.ranking-list {
+    overflow-y: scroll;
+    height: 400px;
+}
+
+@media screen and ( min-width : 480px ) and (orientation: landscape ) {
+	body {
+		background-image:none;
+		overflow-y: scroll;
+	}
+}
+
+.menu-config-mobile {
+	top: 30px;
+	right: -165px;
+	background: #95a5a6;
+	border-color: #7f8c8d;
+	text-shadow: 0 -2px #7f8c8d;
+}
+.menu-config-mobile:hover {
+	right: -18px;
+}
+
+.menu-home-mobile {
+	top: 100px;
+	right: -85px;
+	background: #9b59b6;
+	border-color: #8e44ad;
+	text-shadow: 0 -2px #8e44ad;
+}
+.menu-home-mobile:hover {
+	right: -18px;
+}
+
+
+.menu-suggestions-mobile {
+	right: -125px;
+	top: 170px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background: #2ecc71;
+	border-color: #27ae60;
+	text-shadow: 0 -2px #27ae60;
+}
+.menu-suggestions-mobile:hover {
+	right: -18px;
+}
+
+.menu-logout-mobile {
+	top: 240px;
+	right: -65px;
+}
+.menu-logout-mobile:hover {
+	right: -7px;
+}

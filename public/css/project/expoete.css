@@ -1,0 +1,37 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    	background: #3498db url('../../img/liftoff.png') no-repeat right bottom fixed;
+    	min-height: 800px;
+}
+a {
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none;
+    text-shadow: none;
+}
+a:focus,
+a:hover {
+    color: none !important;
+    box-shadow: none;
+    text-shadow: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: inherit;
+    color: #fff;
+}
