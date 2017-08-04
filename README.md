@@ -1,3 +1,6 @@
+# Nota
+O projeto foi descontinuado e o link (https://astrogame.me) se encontra atualmente fora do ar. Fique a vontade para baixar e utilizar todo o código fonte!
+
 # Astrogame
 ![astrogame_screenshot](https://cloud.githubusercontent.com/assets/5942637/19762372/7b13b236-9c18-11e6-9f13-9cf80ca41065.png)
 
